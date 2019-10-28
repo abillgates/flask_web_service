@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+    <title>Upload File</title>
+    <h1>上传用户私钥</h1>
+    <form method="POST" enctype="multipart/form-data">
+    {{ prvform.hidden_tag() }}
+    {{ prvform.prv}}
+    {{ prvform.submit1 }}
+	</form>
+
+	<h1>上传密文</h1>
+    <form method="POST" enctype="multipart/form-data">
+    {{ encform.hidden_tag() }}
+    {{ encform.enc}}
+    {{ encform.submit2 }}
+	</form>
+
+
+     
